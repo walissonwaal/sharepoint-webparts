@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/slider/SliderWebPart.manifest.json"
         }
       ]
+    },
+    "cards-canais-de-comunicacao-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardsCanaisDeComunicacao/CardsCanaisDeComunicacaoWebPart.js",
+          "manifest": "./src/webparts/cardsCanaisDeComunicacao/CardsCanaisDeComunicacaoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "CardsWebPartStrings": "lib/webparts/cards/loc/{locale}.js",
-    "SliderWebPartStrings": "lib/webparts/slider/loc/{locale}.js"
+    "SliderWebPartStrings": "lib/webparts/slider/loc/{locale}.js",
+    "CardsCanaisDeComunicacaoWebPartStrings": "lib/webparts/cardsCanaisDeComunicacao/loc/{locale}.js"
   }
 }

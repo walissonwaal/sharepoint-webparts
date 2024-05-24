@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b8b5ff70-2e29-4d49-bec0-a93804636989",
+  "alias": "CardsCanaisDeComunicacaoWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Cards Canais de Comunicação" },
+      "description": { "default": "Cards Canais de Comunicação" },
+      "officeFabricIconFontName": "TabletMode",
+      "properties": {
+        "description": "cards-canais-de-comunicacao"
+      }
+    }
+  ]
+}
