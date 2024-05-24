@@ -66,13 +66,13 @@ export default class SliderWebPart extends BaseClientSideWebPart<ISliderWebPartP
         `;
       });
 
-      const cardsContainer: Element | null =
+      const swiperContainer: Element | null =
         this.domElement.querySelector("#spSwiperContainer");
 
-      if (cardsContainer) {
-        cardsContainer.innerHTML = html;
+      if (swiperContainer) {
+        swiperContainer.innerHTML = html;
       } else {
-        console.error("O contêiner de cartões não foi encontrado.");
+        console.error("O contêiner de slides não foi encontrado.");
       }
     });
   }
