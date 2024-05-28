@@ -6,7 +6,7 @@
 
   "version": "*",
   "manifestVersion": 2,
-  "requiresCustomScript": false,
+  "requiresCustomScript": true,
   "supportsFullBleed": true,
   "supportedHosts": [
     "SharePointWebPart",

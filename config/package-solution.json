@@ -3,7 +3,7 @@
   "solution": {
     "name": "cards-client-side-solution",
     "id": "3e934dba-3ce9-41d5-9636-63b8b3e38362",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
